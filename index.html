@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/008276c596.js" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Cookie', cursive;
+            width: 100vw;
+            height: cover;
+            background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url(back2.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        header {
+            background: transparent;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        section {
+            margin: auto;
+            margin-top: 25px;
+            width: 85%;
+
+            padding: 30px 70px;
+            background: transparent;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-family: 'Zilla Slab', serif;
+            font-size: 25px;
+            color: rgb(202, 228, 32);
+            margin-bottom: 8px;
+        }
+
+        p {
+            color: #fff;
+            line-height: 1.8;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        ul li {
+            color: #fff;
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        li::before {
+            content: '\2023';
+            color: #e0dcdc;
+            display: inline-block;
+            width: 1.5em;
+            margin-left: -1em;
+
+        }
+
+        button {
+            margin: 40px auto;
+            background-color: #091554;
+
+            padding: 15px 35px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        button a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        button:hover {
+            background-color: rgb(0, 0, 0);
+
+        }
+
+        footer {
+            margin-top: 20px;
+            background-color: #05224d;
+            color: #fff;
+            text-align: center;
+            padding: 18px 0;
+
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+            font-size: 25px;
+        }
+
+        .social-icon {
+            font-size: 8px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-icon a {
+            text-decoration: none;
+            color: #fff;
+            margin: 5px 20px;
+        }
+
+        .social-icon a i {
+            font-size: 20px;
+        }
+
+        footer .small {
+            margin-top: 10px;
+        }
+
+        footer .small a {
+            color: #fff;
+            font-size: 20px;
+        }
+
+        @media only screen and (max-width:900px) {
+            body {
+                background-size: auto;
+            }
+
+            section {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 22px;
+               
+            }
+
+            p,
+            ul li {
+                font-size: 16px;
+               
+            }
+
+            button {
+                font-size: 16px;
+                
+            }
+
+            footer p,
+            footer .small a {
+                font-size: 18px;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Web Developer Internship Opportunities at Codecase Innovation<br><small>Internship Duration = One
+                Month</small></h1>
+    </header>
+
+    <section>
+        <h2>Brief Introduction</h2>
+        <p>CodeCase provides hands-on learning and real-world projects for
+            students, empowering them with practical skills in the tech industry.
+            Their internship program, guided by experienced mentors, ensures a
+            supportive and inclusive environment to foster learning, growth, and
+            creativity. Aspiring tech professionals gain invaluable knowledge and
+            expertise to succeed in their careers. The internship duration is one Month.</p><br>
+
+        <h2>Highlights</h2>
+        <ul>
+            <li>Real-world experience in web development projects.</li>
+            <li>Mentorship from experienced professionals in the field.</li>
+            <li>The
+                successful completion of Level 3 will further enhance your chances of receiving a Goodies, T-shirt,
+                Letter of recommendation.</li>
+            <!-- Add more highlights as needed -->
+        </ul><br>
+
+        <h2>Qualifications</h2>
+        <p>We are looking for candidates with the following skills and technologies:</p>
+        <ul>
+            <li>Graduation (BE/B.tech, ME/M.tech, BCA/MCA ) in Computer Science.</li>
+            <li>Familiarity with web development frameworks (e.g., React, Angular, Vue).</li>
+            <li>Excellent problem-solving and communication skills.</li>
+            <li>Strong understanding of HTML, CSS, and JavaScript and other framework like tailwindCss , bootstrap,
+                bulmaCSS.</li>
+            <!-- Add more qualifications as needed -->
+        </ul>
+
+        <button><a href="http://www.codecase.in/">Apply Now</a></button>
+    </section>
+
+    <footer>
+        <p>To Find out more information, please contact us</p>
+        <div class="social-icon">
+            <a href="https://instagram.com/codecaseofficial?igshid=OGQ5ZDc2ODk2ZA=="><i
+                    class="fa-brands fa-instagram fa-2xl "></i></a>
+            <a href="https://in.linkedin.com/company/code-case"><i class="fa-brands fa-linkedin-in fa-2xl "></i></a>
+            <a href="http://www.codecase.in/"><i class="fa-solid fa-globe fa-2xl"></i></a>
+
+
+        </div>
+        <div class="small">
+            <a href="#">Codecase.innovation@gmail.com</a>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
